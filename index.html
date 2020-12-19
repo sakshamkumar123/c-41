@@ -11,17 +11,20 @@
     <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
-
     <script>
-      //Your web app's Firebase configuration
-
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
-
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAAfHs1ZwuQWiceUhOdYRLFjbYDOJIjxUI",
+        authDomain: "multiplayer-game-f4a33.firebaseapp.com",
+        databaseURL: "https://multiplayer-game-f4a33.firebaseio.com",
+        projectId: "multiplayer-game-f4a33",
+        storageBucket: "multiplayer-game-f4a33.appspot.com",
+        messagingSenderId: "1075110989470",
+        appId: "1:1075110989470:web:798a7bd9fc8f0c0223358f"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
     </script>
-
     <script src="js/Player.js"></script>
     <script src="js/Form.js"></script>
     <script src="js/Game.js"></script>
